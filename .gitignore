@@ -1,0 +1,21 @@
+# PlatformIO build cache
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# secrets (không bao giờ commit WiFi/mật khẩu)
+secrets.h
+wifi.cfg
+auth.cfg

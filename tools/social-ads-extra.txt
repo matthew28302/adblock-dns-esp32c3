@@ -1,0 +1,65 @@
+# Curated additions: social-media ad networks + mobile ad SDK endpoints.
+# Mục tiêu: chặn quảng cáo mà các nền tảng xã hội MANG ĐI PHỤC VỤ APP KHÁC
+# (ví dụ quảng cáo cài TikTok hiển thị trong app đọc truyện — do Pangle,
+#  hay ads của Meta Audience Network) nhưng KHÔNG chặn chính nền tảng đó.
+# Danh sách này chỉ chứa hạ tầng quảng cáo/đo lường — chặn an toàn.
+
+# --- TikTok / ByteDance ad infrastructure (TikTok app vẫn chạy bình thường) ---
+ads.tiktok.com
+ads.tiktokv.com
+ads.tiktokv.us
+ads-sg.tiktok.com
+ads16-normal-useast1a.tiktokv.com
+pangle.io
+ads.pangle.io
+toponad.com
+toponad.net
+
+# --- Meta Audience Network (ads trong app bên thứ 3) ---
+an.facebook.com
+ads.facebook.com
+
+# --- Google mobile ad serving (bảo đảm có mặt) ---
+admob.com
+app-measurement.com
+adservice.google.com
+googleadservices.com
+doubleclick.net
+pagead2.googlesyndication.com
+
+# --- Các SDK quảng cáo/kinh doanh hoá trong app phổ biến ---
+unityads.unity3d.com
+applovin.com
+vungle.com
+inmobi.com
+chartboost.com
+ironsrc.com
+supersonicads.com
+tapjoy.com
+mintegral.com
+moloco.com
+fyber.com
+adcolony.com
+dataseat.com
+startapp.com
+smaato.net
+aarki.com
+appnext.com
+appodeal.com
+liftoff.io
+
+# --- Retargeting / RTB / content-recommendation ads ---
+criteo.com
+criteo.net
+outbrain.com
+taboola.com
+revcontent.com
+mgid.com
+
+# --- Ad network Việt Nam ---
+eclick.vn
+admicro.vn
+adtop.vn
+ads.zing.vn
+advertising.zalo.vn
+zad.vn

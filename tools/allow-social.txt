@@ -1,0 +1,57 @@
+# Allowlist build-time (@@ rules): đảm bảo các nền tảng/dịch vụ này KHÔNG BAO GIỜ
+# nằm trong danh sách chặn — dùng app mạng xã hội hoàn toàn bình thường.
+# Chú ý: rule @@ chỉ gỡ đúng entry trùng tên (exact match). Các subdomain
+# phục vụ quảng cáo như ads.tiktok.com vẫn bị chặn như thường.
+
+# Meta / Facebook / Instagram / WhatsApp / Messenger
+@@||facebook.com^
+@@||fb.com^
+@@||fbcdn.net^
+@@||instagram.com^
+@@||cdninstagram.com^
+@@||whatsapp.com^
+@@||whatsapp.net^
+@@||messenger.com^
+
+# TikTok
+@@||tiktok.com^
+@@||tiktokcdn.com^
+@@||tiktokcdn-us.com^
+@@||tiktokv.com^
+@@||tiktokv.us^
+@@||musical.ly^
+@@||byteoversea.net^
+
+# X / Twitter
+@@||twitter.com^
+@@||x.com^
+@@||twimg.com^
+@@||t.co^
+
+# Google / YouTube (dịch vụ chính)
+@@||google.com^
+@@||googleapis.com^
+@@||gstatic.com^
+@@||googlevideo.com^
+@@||youtube.com^
+@@||ytimg.com^
+@@||ggpht.com^
+
+# Nhắn tin khác
+@@||telegram.org^
+@@||t.me^
+@@||discord.com^
+@@||discordapp.com^
+
+# Nền tảng Việt Nam (Zalo, Zing, Zing MP3, báo lớn)
+@@||zalo.vn^
+@@||zaloapp.com^
+@@||zing.vn^
+@@||zingmp3.vn^
+@@||vnexpress.net^
+
+# Reddit / LinkedIn
+@@||reddit.com^
+@@||redd.it^
+@@||redditstatic.com^
+@@||linkedin.com^
